@@ -7,7 +7,7 @@
     },
     {
       "src": "package.json",
-      "use": "@vercel/static-build",
+      "use": "@vercel/static",
       "config": { "distDir": "build" }
     }
   ],
@@ -15,6 +15,10 @@
     {
       "src": "/api/(.*)",
       "dest": "/api/server.js"
+    },
+    {
+      "src": "/static/(.*)",
+      "dest": "/static/$1"
     },
     {
       "src": "/(.*)",
