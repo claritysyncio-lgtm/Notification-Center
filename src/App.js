@@ -12,7 +12,7 @@ function App() {
   const [types, setTypes] = useState([]);
   const [courseFilter, setCourseFilter] = useState("all");
   const [typeFilter, setTypeFilter] = useState("all");
-  const [workspaceName, setWorkspaceName] = useState('Notion Workspace');
+  const [workspaceName] = useState('Notion Workspace');
   const [isLoading, setIsLoading] = useState(true);
 
   const handleMarkDone = (taskId) => {
