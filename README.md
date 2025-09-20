@@ -39,10 +39,8 @@ This approach is best when you're first setting things up, as it makes it easier
 
     In your first terminal, start the backend server:
     ```bash
-    npm run api
+    npm run server
     ```
-    *(Note: The script to start the backend might have a different name. If `npm run api` doesn't work, please check your `package.json` file for the correct script that runs the server in the `api/` directory.)*
-
     You should see a message like `Server listening on http://localhost:5000`. Leave this terminal running.
 
 2.  **Start the Frontend App**
