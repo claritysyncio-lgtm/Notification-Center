@@ -1,7 +1,6 @@
-import React, { useState, useEffect, useMemo, useCallback } from "react";
+import React, { useState, useMemo, useCallback } from "react";
 import { parseISO, format, differenceInCalendarDays } from "date-fns";
 import { FaSyncAlt } from "react-icons/fa";
-import axios from "axios";
 
 const NotificationCenter = ({
   tasks = [],
