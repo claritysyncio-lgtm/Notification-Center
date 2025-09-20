@@ -70,8 +70,7 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-**Note:** This only starts the frontend. You must also start the backend server separately for the app to work (see above).
-**Note:** This script only starts the frontend development server. For local development, it is recommended to use `npm run dev` to run both the frontend and backend servers together.
+**Note:** This script only starts the frontend. For full local development, you must run the backend server in a separate terminal (`npm run server`), or use `npm run dev` to start both concurrently.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
